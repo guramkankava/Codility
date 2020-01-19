@@ -8,9 +8,9 @@ import java.util.Map;
 public class OddOccurrencesInArray {
 
     public static void main(String[] args) {
-        int [] source = new int [] {1,2,3,1,3,1,1};
+        int [] source = new int [] {1,2,3,1,3,1,1,2,2};
         int [] source2 = new int [] {9, 3, 9, 3, 9, 7, 9};
-        System.out.println(solutionByBinary(source));
+        System.out.println(solutionByMap(source));
     }
 
     public static void solution(int[] source) {
